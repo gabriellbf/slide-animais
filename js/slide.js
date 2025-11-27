@@ -113,6 +113,7 @@ export default class Slide {
 
   init() {
     this.bindEvents();
+    this.transition(true);
     this.addSlideEvents();
     this.slidesConfig();
     return this;
